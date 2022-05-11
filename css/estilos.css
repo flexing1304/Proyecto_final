@@ -401,6 +401,9 @@ background: linear-gradient(180deg, rgba(101,101,101,1) 0%, rgba(159,159,159,1) 
 .kishi__img{
     width: 100%;
 }
+td a{
+    text-decoration: none;
+}
 
 /* Desktop firns */
 /* max-width */
@@ -470,8 +473,9 @@ background: linear-gradient(180deg, rgba(101,101,101,1) 0%, rgba(159,159,159,1) 
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
     .body1 {
-        background-color: rgb(220, 240, 90);
+        background-color: grey;
     }
+
     .header{
         flex-direction: row;
     }
@@ -564,16 +568,18 @@ background: linear-gradient(180deg, rgba(101,101,101,1) 0%, rgba(159,159,159,1) 
         width: 100%;
         
     }
-    .img__left{
-        width: 600px;
-        align-items: center;
+    .audio__razer1{
+        max-width: 100%;
     }
-    .img__center{
-        width: 600px;
-        align-items: center;
+    .img__left .img__center .img__right{
+        max-width: 50%;
+        width: fit-content;
     }
-    .img__right{
-        width: 600px;
-        align-items: center;
+    
+    .img__audio{
+        max-width: max-content;
+    }
+    .img__audio{
+        max-width: 100%;
     }
 }
